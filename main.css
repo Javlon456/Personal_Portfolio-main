@@ -1,0 +1,133 @@
+h1 {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+p {
+    font-size: 16px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+ol, ul {
+    font-size: 14px;
+    margin-right: 150px;
+    margin-left: 55px;
+}
+
+ul {
+    display:block;
+    list-style: disc;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.navigation {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a:link, .navigation li a:visited {
+    color:#fff;
+    text-decoration:none;
+    padding:8px 0;
+    text-transform: uppercase;
+    font-size:90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.navigation li a:hover{
+    border-bottom: 2px solid #e67e22;
+    transition-property: border-bottom,color;
+    transition-duration: 0.2s,0.2s,0.2s;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+                                url('https://www.freepik.com/free-photos-vectors/coding');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color:#fff;
+}
+
+.header h1{
+    font-size:40px;
+    text-align:center;
+    top:50%;
+}
+
+.header p{
+    font-size:35px;
+    text-align:center;
+    top:50%;
+}
+
+.row {
+    display: block;
+    max-width: 1140;
+    margin-right:50px;
+    margin-left:50px;
+    zoom: 1;
+    padding: 0.2%;
+}
+
+.picture{
+    height: 200px;
+    width: auto;
+    border-radius:50%;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.section-image{
+    display:block;
+    height: 300px;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.picture2{
+    height: 300px;
+    width:auto;
+}
+
+.skills{
+    text-align: center;
+    font-size: 10px;
+}
+
+.projects ul{
+    list-style-type: none;
+}
+
+.achievements ul{
+    list-style-type: none;
+}
+
